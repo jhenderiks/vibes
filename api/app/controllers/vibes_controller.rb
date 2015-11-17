@@ -11,6 +11,7 @@ class VibesController < ApplicationController
 
   def search
     parameters = convert_string_hash_to_sym_hash(check_params)
+    # prev_params = cookies[:test].nil? ? {} : convert_string_hash_to_sym_hash(JSON.parse(cookies[:test]))
     parameters[:epoch] = Time.now.to_i
     parameters[:order_by] = 'sentiment'
     changes = determine_changes(get_prev_params, parameters)

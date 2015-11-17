@@ -13,7 +13,10 @@
   "dependencies": {
     "babel-preset-react": "^6.1.2",
     "babelify": "^7.2.0",
+    "chart.js": "^1.0.2",
+    "jquery": "^2.1.4",
     "react": "^0.14.2",
+    "react-chartjs": "^0.6.0",
     "react-dom": "^0.14.2",
     "reactify": "^1.1.1",
     "watchify": "^3.6.0"
