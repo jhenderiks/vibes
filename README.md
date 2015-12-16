@@ -1,6 +1,8 @@
-# vibes
-api folder - rails app
-app folder - react app
+# Vibes
+Twitter sentiment analytics using IBM's Watson API.
+
+- api folder - rails app
+- app folder - react app
 
 
 To use api you need to
